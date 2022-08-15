@@ -7,57 +7,78 @@
     <title>Document</title>
 
     <style>
-        table{
-            border-collapse: collapse;
+        h1{
+            text-align: center;
         }
-       td,th{
-        border: 1px solid black;
-         padding: 0 10px;
-         font-size: 50px;
-       }
     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>no</th>
-                <th>name</th>
-                <th>company</th>
-                <th>income</th>
-            </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>jh raju</td>
-            <td>foundre of p.com</td>
-        <td>1000$</td>
-        
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>shakib</td>
-            <td>putki.com</td>
-            <td>1000$</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>apon vai</td>
-            <td>mobile.com</td>
-            <td>200$</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>kamrul</td>
-            <td>fb.com</td>
-            <td>400$</td>
-            
-        </tr>
-    </tbody>
-            </table>
-    
+    <h1>jamal's stor</h1>
+    <form action="">
+<p>name: <input type="text" name="" placeholder="write your name" id="">
+</p>
+<p>email: <input type="email" name="" placeholder="write your email" id="">
+</p>
+<fieldset>
+    <legend>select your pitha</legend>
+   
+<p>
+    <label for="citoi">
+        <input type="radio" name="citoi" id="citoi">citoi
+    </label>
+</p>
+<p>
+    <label for="teler pitha">
+        <input type="radio" name="teler pitha" id="teler pitha">teler pitha
+    </label>
+</p>
+<p>
+    <label for="malai">
+        <input type="radio" name="malai" id="malai">malai
+    </label>
+</p>
+<p>
+    <label for="bapa">
+        <input type="radio" name="bapa" id="bapa">bapa
+    </label>
+</p>
 
+
+
+</fieldset>
+
+<fieldset>
+    <legend>borta</legend>
+
+    <p>
+        <label for="moricer borta">
+            <input type="radio" name="moricer borta" id="moricer borta">moricer borta
+        </label>
+    </p>
+    <p>
+        <label for="sorishar borta">
+            <input type="radio" name="tsorishar borta" id="sorishar borta"> sorishar borta
+        </label>
+    </p>
+    <p>
+        <label for="tok">
+            <input type="radio" name="tok" id="tok">tok
+        </label>
+    </p>
+    <p>
+        <label for=" misty">
+            <input type="radio" name=" misty" id=" misty"> misty
+        </label>
+    </p>
+    
+</fieldset>
+<p>special instruction:</p> <br>
+<textarea name="instruction" id="" cols="30" rows="10"></textarea>
+    </form>
+
+
+<button type="submit">submit</button>
+<button type="reset">reset</button>
 
 
 
